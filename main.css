@@ -1,0 +1,17 @@
+:root {
+    --just-white: #FFFFFF;
+    --main-black: #262020;
+    --warm-black: #111111;
+    --roth-yellow: #fdca4a;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: var(--just-white);
+    background: var(--warm-black);
+}
+
+
+
