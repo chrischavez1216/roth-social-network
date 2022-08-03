@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email enviado</title>
+    <style>
+        :root {
+    --just-white: #FFFFFF;
+    --main-black: #262020;
+    --warm-black: #111111;
+    --roth-yellow: #fdca49;
+    --sm: 16px;
+    --md: 18px;
+    --lg: 20px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: var(--just-white);
+    background: var(--warm-black);
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+.form-container__logo{
+   width: 200px;
+   margin-bottom: 48px;
+   justify-self: center;
+}
+.form-container__tittle{
+    font-size: var(--lg);
+    color: var(--roth-yellow);
+    text-align: center;
+}
+.form-container__subtitle{
+    text-align: center;
+    font-size: var(--md);
+    margin: 0 0 32px 0;
+}
+.email-picture{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--main-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    justify-self: center;
+}
+.email-picture img{
+    width: 80px;
+}
+.form-container .form-container__button{
+    margin-top: 28px;
+}
+.primary-button{
+    background: var(--roth-yellow);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    height: 48px;
+    cursor: pointer;
+    transition: .2s;
+    color: #000;
+    font-size: var(--sm);
+}
+.primary-button:hover{
+    opacity: 90%;
+    color: var(--just-white);
+}
+.resend {
+    text-align: center;
+    margin-top: 32px;
+}
+.resend a{
+    color: var(--roth-yellow);
+}
+    </style>
+</head>
+<body>
+    <section class="login">
+        <div class="form-container">
+            <img src="./assets/roth-community-white.png" alt="Logo de ROTH" class="form-container__logo">
+            <h1 class="form-container__tittle">Se ha enviado un Email</h1>
+            <p class="form-container__subtitle">Chécale en tu bandeja mi pana ❤️</p>
+
+            <picture class="email-picture">
+                <img src="./assets/icons/mail-white.svg" alt="logo de un email">
+            </picture>
+            <input type="submit" value="Login" class="primary-button">
+
+            <p class="resend">¿No recibiste el Email? <a href="#">Reenviar</a></p>
+            
+        </div>
+    </section>
+</body>
+</html>

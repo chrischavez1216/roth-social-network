@@ -11,7 +11,136 @@
     <title>Roth</title>
 </head>
 <body>
+    <nav class="main-nav-container">
+        <div class="nav-left">
+            <img src="./assets/roth-community-yellow.png" alt="Logo de Roth Community">
+            <button type="button" class="button-mobile-menu"><img src="./assets/icons/menu-white.png" alt="Toggle menu" /></button>
+        </div>
+
+        <div class="nav-center">
+            <ul>
+                <li><a href="#">COMUNIDAD</a></li>
+                <li><a href="#">CANCIONES</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">GALERIA</a></li>
+                <li><a href="#">EVENTOS</a></li>
+                <li><a href="#">¿QUIEN ES ROTH?</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <span>
+                <p class="cart-counter ">3</p>
+                <img src="./assets/icons/shopping-cart-yellow64.png" alt="Carrito">
+            </span>
+            <span class="user-img"><img src="" alt=""></span>
+        </div>
+
+    </nav>
+    <main>
+    <!-- Deploy menu---------------------------------------------------------------------- -->
+
+    <div id="desktop-menu" class="desktop-menu inactive">
+        <ul>
+            <li><a href="" class="title">Mi perfil</a></li>
+            <li><a href="">Mis compras</a></li>
+            <li><a href="">Cerrar sesión</a></li>
+        </ul>
+    </div>
+
+    <div id="login-links" class="desktop-menu inactive">
+        <ul>
+            <li><a href="/">Iniciar sesión</a></li>
+            <li><a href="/">Crear una cuenta</a></li>
+        </ul>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu inactive">
+        <ul>
+            <li><a href="#">COMUNIDAD</a></li>
+            <li><a href="#">CANCIONES</a></li>
+            <li><a href="#">PRODUCTOS</a></li>
+            <li><a href="#">GALERIA</a></li>
+            <li><a href="#">EVENTOS</a></li>
+            <li><a href="#">¿QUIEN ES ROTH?</a></li>
+        </ul>
+    </div>
+
+    <div id="cart-orders" class="inactive">
+
+        <div class="cart-orders-container ">
+            <h2 class="title">Mis compras</h2>
+            <div class="cart-orders__totalbill ">
+                    <p>
+                        <span>02.08.22</span>
+                        <span>2 artículos</span>
+                    </p>
+                    <p>$560.00</p>
+            </div>
+            <div class="product-card-container">
+                <div class="product-card">
+                    <figure>
+                        <img src="./assets/rothSquid.png" alt="producto">
+                    </figure>
+                    <p>Producto</p>
+                    <p>$280</p>
+                </div>
     
+                <div class="product-card">
+                    <figure>
+                        <img src="./assets/rothSquid.png" alt="producto">
+                    </figure>
+                    <p>Producto</p>
+                    <p>$280</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="shopping-cart inactive">
+        <div id="shopingCartContainer" class="cart-orders-container ">
+            <h2 class="title">Carrito de compras</h2>
+            <div id="cartProductContainer" class="product-card-container">
+                <div class="product-card shoppingCartCard">
+                    <figure>
+                        <img src="./assets/rothSquid.png" alt="producto">
+                    </figure>
+                    <p>Producto</p>
+                    <p>$280</p>
+                </div>
+                
+                <div class="product-card shoppingCartCard">
+                    <figure>
+                        <img src="./assets/rothSquid.png" alt="producto">
+                    </figure>
+                    <p>Producto</p>
+                    <p>$280</p>
+                </div>
+            </div>
+
+            <div id="shoppingCartBill"class="cart-orders__totalbill shoppingCartBill">
+                    <p>
+                        <span>Total</span>
+                    </p>
+                    <p>$560.00</p>
+            </div>
+
+            <button id="shoppingCartButton" class="primary-button">Comprar</button>
+
+        </div>
+    </div>
+
+
     
+    <!-- Deploy Menu====================================================================== -->
+
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
