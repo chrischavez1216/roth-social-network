@@ -105,3 +105,6 @@ dist
 
 #VS Code
 .vscode
+3-login.html
+1-creacion-contraseña.html
+2-email-enviado.html
